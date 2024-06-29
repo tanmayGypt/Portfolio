@@ -16,7 +16,7 @@ export default function Icons() {
         </div>
         <button
           draggable
-          className="bg-red-500 tracking-wide hover:bg-red-700 text-white text-sm font-bold py-2 px-4 rounded w-36 h-12 mt-6 opacity-90 scale-10 hover:scale-110 transition-all active:opacity-50"
+          className="bg-red-500 tracking-wide hover:bg-red-700 hover:scale-90 text-white text-lg font-bold py-2 px-4 rounded w-36 h-12 mt-6 opacity-90 scale-10 hover:scale-110 transition-all active:opacity-50"
         >
           Resume
         </button>

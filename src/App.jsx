@@ -2,9 +2,11 @@ import Particles from "./Components/Background/particles";
 import { motion } from "framer-motion";
 import { useScroll, useSpring } from "framer-motion";
 import Heading from "./Components/Heading/heading";
+import GetInTouch from "./Components/GetInTouch/GetInTouch";
 import "./App.css";
 import Icons from "./Components/Icons.jsx/Icons";
 import Navbar from "./Components/Navbar/Navbar";
+import AboutMe from "./Components/About Me/AboutMe";
 import Project_Section from "./Components/Project Section/Project Section";
 export default function App() {
   const { scrollYProgress } = useScroll();
@@ -20,6 +22,8 @@ export default function App() {
       <motion.div className="progress-bar" style={{ scaleX }} />
       <Icons />
       <Project_Section />
+      <AboutMe />
+      <GetInTouch />
     </>
   );
 }

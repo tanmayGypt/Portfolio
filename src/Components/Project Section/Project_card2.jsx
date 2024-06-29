@@ -1,12 +1,8 @@
+import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
-function Project_Card() {
+function Project_card2() {
   return (
     <div className="flex space-x-4 mx-16 border-l-white mt-8 opacity-90">
-      <img
-        className="rounded w-2/5"
-        src="https://www.graffiti9.com/wp-content/uploads/2019/10/Website-Banner.jpg"
-        alt=""
-      />
       <div className="flex flex-col gap-y-6 my-auto">
         <div className="text-white  tracking-wide text-3xl">MERN Project</div>
         <div className="text-white  tracking-wide text-purple-200 font-bold text-2xl">
@@ -44,8 +40,13 @@ function Project_Card() {
           </div>
         </div>
       </div>
+      <img
+        className="rounded w-2/5"
+        src="https://www.graffiti9.com/wp-content/uploads/2019/10/Website-Banner.jpg"
+        alt=""
+      />
     </div>
   );
 }
 
-export default Project_Card;
+export default Project_card2;
